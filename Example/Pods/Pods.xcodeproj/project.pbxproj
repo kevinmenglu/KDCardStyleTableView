@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14C22D0D1A16740CA02FA19CEB42CDE4 /* KDCardStyleTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C98D6546ED977B9C05E4F39E97E191A /* KDCardStyleTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17398CDA55507F96FA5FECA2805574C6 /* Pods-KDCardStyleTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D63D836D5FAC6CA261B369D323DEB4 /* Pods-KDCardStyleTableView_Tests-dummy.m */; };
+		1983BA0C21F869D6000762F9 /* CardStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1983BA0621F869D4000762F9 /* CardStyle.swift */; };
+		1983BA0D21F869D6000762F9 /* CardStyleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1983BA0721F869D4000762F9 /* CardStyleTableViewCell.swift */; };
+		1983BA0E21F869D6000762F9 /* CardStyleTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1983BA0821F869D5000762F9 /* CardStyleTableView.swift */; };
+		1983BA0F21F869D6000762F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1983BA0921F869D5000762F9 /* Constants.swift */; };
+		1983BA1021F869D6000762F9 /* WeakObjectContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1983BA0A21F869D5000762F9 /* WeakObjectContainer.swift */; };
+		1983BA1121F869D6000762F9 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1983BA0B21F869D6000762F9 /* Protocols.swift */; };
+		259111048EEF1885257F9FF8E9C5A20B /* Pods-KDCardStyleTableView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10E51AC4465F81173AB28E972A9930A6 /* Pods-KDCardStyleTableView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64C02CD12D5467F571AA661E7DA2A31E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		7629E9DEBC6EF44A927C264153AE00F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		7A1665CC38F223F4F996EFC22E654B33 /* Pods-KDCardStyleTableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E45D1D817B740DE1E7ED257CD41A9A9E /* Pods-KDCardStyleTableView_Example-dummy.m */; };
+		886C6FC574E4BD9C81FA5CFBB24651D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		DEF25DE5221A2432B199CD51B03BAA42 /* Pods-KDCardStyleTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF57D62F7B5B207D65CC9A0E7C325B27 /* Pods-KDCardStyleTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3766CD58D6C4AFCC5FE44D14AED1919 /* KDCardStyleTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FF1D8094F55FB10CFA6423F70DC27C /* KDCardStyleTableView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23ED4077F620438A24FAC58989FF7CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC55EED5E133B83E7CDA55AACAC6A3C2;
+			remoteInfo = KDCardStyleTableView;
+		};
+		7303376D8E404E1F7FC1E6A6F5C33BE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846D5A7ED18EC608024306A1B6DFB43C;
+			remoteInfo = "Pods-KDCardStyleTableView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10E51AC4465F81173AB28E972A9930A6 /* Pods-KDCardStyleTableView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KDCardStyleTableView_Example-umbrella.h"; sourceTree = "<group>"; };
+		12C42C4F3570B491696A9B35C73CB1B9 /* Pods-KDCardStyleTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDCardStyleTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		16FF1D8094F55FB10CFA6423F70DC27C /* KDCardStyleTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KDCardStyleTableView-dummy.m"; sourceTree = "<group>"; };
+		197C690A6E9862382CA68AB96E8F924E /* KDCardStyleTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KDCardStyleTableView.modulemap; sourceTree = "<group>"; };
+		1983BA0621F869D4000762F9 /* CardStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardStyle.swift; path = KDCardStyleTableView/Classes/CardStyle.swift; sourceTree = "<group>"; };
+		1983BA0721F869D4000762F9 /* CardStyleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardStyleTableViewCell.swift; path = KDCardStyleTableView/Classes/CardStyleTableViewCell.swift; sourceTree = "<group>"; };
+		1983BA0821F869D5000762F9 /* CardStyleTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardStyleTableView.swift; path = KDCardStyleTableView/Classes/CardStyleTableView.swift; sourceTree = "<group>"; };
+		1983BA0921F869D5000762F9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = KDCardStyleTableView/Classes/Constants.swift; sourceTree = "<group>"; };
+		1983BA0A21F869D5000762F9 /* WeakObjectContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeakObjectContainer.swift; path = KDCardStyleTableView/Classes/WeakObjectContainer.swift; sourceTree = "<group>"; };
+		1983BA0B21F869D6000762F9 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = KDCardStyleTableView/Classes/Protocols.swift; sourceTree = "<group>"; };
+		2A15BE69AF8E0852DF096B041C120F53 /* Pods-KDCardStyleTableView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KDCardStyleTableView_Example.modulemap"; sourceTree = "<group>"; };
+		52719F10C215679C57167E3A7A814723 /* Pods-KDCardStyleTableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KDCardStyleTableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		54A8813122001D597EF93E69DBA7B411 /* Pods-KDCardStyleTableView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KDCardStyleTableView_Tests-Info.plist"; sourceTree = "<group>"; };
+		561E7900662CB3495755F57A73CFA8D5 /* KDCardStyleTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KDCardStyleTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5CE5B894B2E5C63E87CDFDF8BC6107C7 /* Pods-KDCardStyleTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KDCardStyleTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5DBC6B497665AEA5BF8D3EE849C5BFE0 /* Pods-KDCardStyleTableView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KDCardStyleTableView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		749192091EA087289F87537959DA9648 /* KDCardStyleTableView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KDCardStyleTableView-Info.plist"; sourceTree = "<group>"; };
+		76A6CABDF95C389ED3F5014D66A603B9 /* KDCardStyleTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KDCardStyleTableView.xcconfig; sourceTree = "<group>"; };
+		7C98D6546ED977B9C05E4F39E97E191A /* KDCardStyleTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDCardStyleTableView-umbrella.h"; sourceTree = "<group>"; };
+		7CFBDCA68FB508978030E72B780A121F /* Pods_KDCardStyleTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KDCardStyleTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8570305D60DE09D1B4531AB83B86A6CA /* Pods_KDCardStyleTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KDCardStyleTableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C5830BCD3A8A2227559BFB69D022C3 /* Pods-KDCardStyleTableView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KDCardStyleTableView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		892D6286BC23EB16637F930126A21CAA /* Pods-KDCardStyleTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KDCardStyleTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8AACCCE3F34283A8D7EF4F0DA25347A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A1BC332BB055174A7E0F050EE85123EE /* Pods-KDCardStyleTableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KDCardStyleTableView_Tests.modulemap"; sourceTree = "<group>"; };
+		AA54CD25CCB7959AD19BA651CF278B96 /* Pods-KDCardStyleTableView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KDCardStyleTableView_Example-Info.plist"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CBF1E77162FF3C16607909A7B5B7A71F /* Pods-KDCardStyleTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDCardStyleTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DF57D62F7B5B207D65CC9A0E7C325B27 /* Pods-KDCardStyleTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KDCardStyleTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E18BD5A4BFA87C89F590D423732F462A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E45D1D817B740DE1E7ED257CD41A9A9E /* Pods-KDCardStyleTableView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KDCardStyleTableView_Example-dummy.m"; sourceTree = "<group>"; };
+		E5B4529203F3C28CC1809FEB7583A36F /* Pods-KDCardStyleTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDCardStyleTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB03FB23E4053BE4EE0443F340ADA75A /* Pods-KDCardStyleTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDCardStyleTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F3AA4A5B7F1FFAE88CF38102FF30BDCF /* KDCardStyleTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDCardStyleTableView-prefix.pch"; sourceTree = "<group>"; };
+		F3D63D836D5FAC6CA261B369D323DEB4 /* Pods-KDCardStyleTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KDCardStyleTableView_Tests-dummy.m"; sourceTree = "<group>"; };
+		F793167586788F0BFAF6EE4E88B1062C /* KDCardStyleTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KDCardStyleTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E6D321667514971E7A0BE6A20FCE70F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7629E9DEBC6EF44A927C264153AE00F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78AE00EB1B45AE9E6B0F45CE921CE1A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C02CD12D5467F571AA661E7DA2A31E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6298C1D36789DC1D4CA9D4BA8FE888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886C6FC574E4BD9C81FA5CFBB24651D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0710A040DEA840212472F5E44C062ECC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2A7E4771274C3A65C3ACE7C2FEA6998 /* Pods-KDCardStyleTableView_Example */,
+				132E5C16C06F4267F9FC8E014C039358 /* Pods-KDCardStyleTableView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		132E5C16C06F4267F9FC8E014C039358 /* Pods-KDCardStyleTableView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A1BC332BB055174A7E0F050EE85123EE /* Pods-KDCardStyleTableView_Tests.modulemap */,
+				892D6286BC23EB16637F930126A21CAA /* Pods-KDCardStyleTableView_Tests-acknowledgements.markdown */,
+				5CE5B894B2E5C63E87CDFDF8BC6107C7 /* Pods-KDCardStyleTableView_Tests-acknowledgements.plist */,
+				F3D63D836D5FAC6CA261B369D323DEB4 /* Pods-KDCardStyleTableView_Tests-dummy.m */,
+				54A8813122001D597EF93E69DBA7B411 /* Pods-KDCardStyleTableView_Tests-Info.plist */,
+				DF57D62F7B5B207D65CC9A0E7C325B27 /* Pods-KDCardStyleTableView_Tests-umbrella.h */,
+				E5B4529203F3C28CC1809FEB7583A36F /* Pods-KDCardStyleTableView_Tests.debug.xcconfig */,
+				CBF1E77162FF3C16607909A7B5B7A71F /* Pods-KDCardStyleTableView_Tests.release.xcconfig */,
+			);
+			name = "Pods-KDCardStyleTableView_Tests";
+			path = "Target Support Files/Pods-KDCardStyleTableView_Tests";
+			sourceTree = "<group>";
+		};
+		208A7ACFF50EB69BAB215B523860BC03 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50D6A64376EE4515E10802043887B9C5 /* KDCardStyleTableView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		50D6A64376EE4515E10802043887B9C5 /* KDCardStyleTableView */ = {
+			isa = PBXGroup;
+			children = (
+				1983BA0621F869D4000762F9 /* CardStyle.swift */,
+				1983BA0821F869D5000762F9 /* CardStyleTableView.swift */,
+				1983BA0721F869D4000762F9 /* CardStyleTableViewCell.swift */,
+				1983BA0921F869D5000762F9 /* Constants.swift */,
+				1983BA0B21F869D6000762F9 /* Protocols.swift */,
+				1983BA0A21F869D5000762F9 /* WeakObjectContainer.swift */,
+				D5FDAE0031ED286AE9AB6864ACC413D7 /* Pod */,
+				A35BD792D3059664FBCFB3ADE5F540CE /* Support Files */,
+			);
+			name = KDCardStyleTableView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				208A7ACFF50EB69BAB215B523860BC03 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C6D3F37FCEBF70735850D7C6FEB23318 /* Products */,
+				0710A040DEA840212472F5E44C062ECC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A35BD792D3059664FBCFB3ADE5F540CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				197C690A6E9862382CA68AB96E8F924E /* KDCardStyleTableView.modulemap */,
+				76A6CABDF95C389ED3F5014D66A603B9 /* KDCardStyleTableView.xcconfig */,
+				16FF1D8094F55FB10CFA6423F70DC27C /* KDCardStyleTableView-dummy.m */,
+				749192091EA087289F87537959DA9648 /* KDCardStyleTableView-Info.plist */,
+				F3AA4A5B7F1FFAE88CF38102FF30BDCF /* KDCardStyleTableView-prefix.pch */,
+				7C98D6546ED977B9C05E4F39E97E191A /* KDCardStyleTableView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KDCardStyleTableView";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2A7E4771274C3A65C3ACE7C2FEA6998 /* Pods-KDCardStyleTableView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2A15BE69AF8E0852DF096B041C120F53 /* Pods-KDCardStyleTableView_Example.modulemap */,
+				52719F10C215679C57167E3A7A814723 /* Pods-KDCardStyleTableView_Example-acknowledgements.markdown */,
+				5DBC6B497665AEA5BF8D3EE849C5BFE0 /* Pods-KDCardStyleTableView_Example-acknowledgements.plist */,
+				E45D1D817B740DE1E7ED257CD41A9A9E /* Pods-KDCardStyleTableView_Example-dummy.m */,
+				86C5830BCD3A8A2227559BFB69D022C3 /* Pods-KDCardStyleTableView_Example-frameworks.sh */,
+				AA54CD25CCB7959AD19BA651CF278B96 /* Pods-KDCardStyleTableView_Example-Info.plist */,
+				10E51AC4465F81173AB28E972A9930A6 /* Pods-KDCardStyleTableView_Example-umbrella.h */,
+				EB03FB23E4053BE4EE0443F340ADA75A /* Pods-KDCardStyleTableView_Example.debug.xcconfig */,
+				12C42C4F3570B491696A9B35C73CB1B9 /* Pods-KDCardStyleTableView_Example.release.xcconfig */,
+			);
+			name = "Pods-KDCardStyleTableView_Example";
+			path = "Target Support Files/Pods-KDCardStyleTableView_Example";
+			sourceTree = "<group>";
+		};
+		C6D3F37FCEBF70735850D7C6FEB23318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F793167586788F0BFAF6EE4E88B1062C /* KDCardStyleTableView.framework */,
+				8570305D60DE09D1B4531AB83B86A6CA /* Pods_KDCardStyleTableView_Example.framework */,
+				7CFBDCA68FB508978030E72B780A121F /* Pods_KDCardStyleTableView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5FDAE0031ED286AE9AB6864ACC413D7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				561E7900662CB3495755F57A73CFA8D5 /* KDCardStyleTableView.podspec */,
+				8AACCCE3F34283A8D7EF4F0DA25347A3 /* LICENSE */,
+				E18BD5A4BFA87C89F590D423732F462A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0CDF331CD150843BEB18599E46118ACC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF25DE5221A2432B199CD51B03BAA42 /* Pods-KDCardStyleTableView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5FE6BED73E15D3DDF0A0C58345152B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C22D0D1A16740CA02FA19CEB42CDE4 /* KDCardStyleTableView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A6BBC18DBCC5435F066CD7014BC6E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259111048EEF1885257F9FF8E9C5A20B /* Pods-KDCardStyleTableView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		846D5A7ED18EC608024306A1B6DFB43C /* Pods-KDCardStyleTableView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D21EE68F2CAACA28EEC05837F6F6871 /* Build configuration list for PBXNativeTarget "Pods-KDCardStyleTableView_Example" */;
+			buildPhases = (
+				98A6BBC18DBCC5435F066CD7014BC6E7 /* Headers */,
+				08B4C09E7000721F9C4D0FD447761685 /* Sources */,
+				7E6298C1D36789DC1D4CA9D4BA8FE888 /* Frameworks */,
+				5CA41362252D317B666A4849614A7258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AB37CC489F5FE4CBDBFDC2524C47115 /* PBXTargetDependency */,
+			);
+			name = "Pods-KDCardStyleTableView_Example";
+			productName = "Pods-KDCardStyleTableView_Example";
+			productReference = 8570305D60DE09D1B4531AB83B86A6CA /* Pods_KDCardStyleTableView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6C3ECB98E161AF024335A7B923D28A2 /* Pods-KDCardStyleTableView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E3C59ED723B85315BA8531F195FB19E /* Build configuration list for PBXNativeTarget "Pods-KDCardStyleTableView_Tests" */;
+			buildPhases = (
+				0CDF331CD150843BEB18599E46118ACC /* Headers */,
+				18364167604142055F7D03E0AD243B0D /* Sources */,
+				78AE00EB1B45AE9E6B0F45CE921CE1A5 /* Frameworks */,
+				26E7E3E56C25B6660EC8F21826036A69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				893D92C0BEDCE9ABB5EDBFC830458D20 /* PBXTargetDependency */,
+			);
+			name = "Pods-KDCardStyleTableView_Tests";
+			productName = "Pods-KDCardStyleTableView_Tests";
+			productReference = 7CFBDCA68FB508978030E72B780A121F /* Pods_KDCardStyleTableView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC55EED5E133B83E7CDA55AACAC6A3C2 /* KDCardStyleTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A736C40A93BC06028E8685A63108E70 /* Build configuration list for PBXNativeTarget "KDCardStyleTableView" */;
+			buildPhases = (
+				4C5FE6BED73E15D3DDF0A0C58345152B /* Headers */,
+				9BF1A60B1A213001D5ED46B8300C7BDC /* Sources */,
+				4E6D321667514971E7A0BE6A20FCE70F /* Frameworks */,
+				225F11DF81B42A77F19B4BAC6EACBE9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KDCardStyleTableView;
+			productName = KDCardStyleTableView;
+			productReference = F793167586788F0BFAF6EE4E88B1062C /* KDCardStyleTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					DC55EED5E133B83E7CDA55AACAC6A3C2 = {
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C6D3F37FCEBF70735850D7C6FEB23318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC55EED5E133B83E7CDA55AACAC6A3C2 /* KDCardStyleTableView */,
+				846D5A7ED18EC608024306A1B6DFB43C /* Pods-KDCardStyleTableView_Example */,
+				D6C3ECB98E161AF024335A7B923D28A2 /* Pods-KDCardStyleTableView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		225F11DF81B42A77F19B4BAC6EACBE9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E7E3E56C25B6660EC8F21826036A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA41362252D317B666A4849614A7258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08B4C09E7000721F9C4D0FD447761685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1665CC38F223F4F996EFC22E654B33 /* Pods-KDCardStyleTableView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18364167604142055F7D03E0AD243B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17398CDA55507F96FA5FECA2805574C6 /* Pods-KDCardStyleTableView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF1A60B1A213001D5ED46B8300C7BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1983BA0F21F869D6000762F9 /* Constants.swift in Sources */,
+				1983BA0D21F869D6000762F9 /* CardStyleTableViewCell.swift in Sources */,
+				1983BA1121F869D6000762F9 /* Protocols.swift in Sources */,
+				1983BA0E21F869D6000762F9 /* CardStyleTableView.swift in Sources */,
+				E3766CD58D6C4AFCC5FE44D14AED1919 /* KDCardStyleTableView-dummy.m in Sources */,
+				1983BA1021F869D6000762F9 /* WeakObjectContainer.swift in Sources */,
+				1983BA0C21F869D6000762F9 /* CardStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AB37CC489F5FE4CBDBFDC2524C47115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KDCardStyleTableView;
+			target = DC55EED5E133B83E7CDA55AACAC6A3C2 /* KDCardStyleTableView */;
+			targetProxy = 23ED4077F620438A24FAC58989FF7CE7 /* PBXContainerItemProxy */;
+		};
+		893D92C0BEDCE9ABB5EDBFC830458D20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KDCardStyleTableView_Example";
+			target = 846D5A7ED18EC608024306A1B6DFB43C /* Pods-KDCardStyleTableView_Example */;
+			targetProxy = 7303376D8E404E1F7FC1E6A6F5C33BE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		405B17ECEBF6DDBD8DD8837FFE25E26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB03FB23E4053BE4EE0443F340ADA75A /* Pods-KDCardStyleTableView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KDCardStyleTableView_Example/Pods-KDCardStyleTableView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KDCardStyleTableView_Example/Pods-KDCardStyleTableView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46D8B81EBFF3E46324AAFACBB50BCA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF1E77162FF3C16607909A7B5B7A71F /* Pods-KDCardStyleTableView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KDCardStyleTableView_Tests/Pods-KDCardStyleTableView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KDCardStyleTableView_Tests/Pods-KDCardStyleTableView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D6315D8C302DDD629B5FA093BD89341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5B4529203F3C28CC1809FEB7583A36F /* Pods-KDCardStyleTableView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KDCardStyleTableView_Tests/Pods-KDCardStyleTableView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KDCardStyleTableView_Tests/Pods-KDCardStyleTableView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A949A208667F02694AF29D5DCC8D4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		70887824CF47AC9A2664C3287DCB60AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76A6CABDF95C389ED3F5014D66A603B9 /* KDCardStyleTableView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KDCardStyleTableView/KDCardStyleTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KDCardStyleTableView/KDCardStyleTableView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KDCardStyleTableView/KDCardStyleTableView.modulemap";
+				PRODUCT_MODULE_NAME = KDCardStyleTableView;
+				PRODUCT_NAME = KDCardStyleTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3F375AE60D98776B7D6CFF5DF6DC9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76A6CABDF95C389ED3F5014D66A603B9 /* KDCardStyleTableView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KDCardStyleTableView/KDCardStyleTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KDCardStyleTableView/KDCardStyleTableView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KDCardStyleTableView/KDCardStyleTableView.modulemap";
+				PRODUCT_MODULE_NAME = KDCardStyleTableView;
+				PRODUCT_NAME = KDCardStyleTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F453421E1E7649D370AA1B3FF84DDEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C42C4F3570B491696A9B35C73CB1B9 /* Pods-KDCardStyleTableView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KDCardStyleTableView_Example/Pods-KDCardStyleTableView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KDCardStyleTableView_Example/Pods-KDCardStyleTableView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A736C40A93BC06028E8685A63108E70 /* Build configuration list for PBXNativeTarget "KDCardStyleTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70887824CF47AC9A2664C3287DCB60AC /* Debug */,
+				D3F375AE60D98776B7D6CFF5DF6DC9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */,
+				6A949A208667F02694AF29D5DCC8D4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D21EE68F2CAACA28EEC05837F6F6871 /* Build configuration list for PBXNativeTarget "Pods-KDCardStyleTableView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405B17ECEBF6DDBD8DD8837FFE25E26E /* Debug */,
+				F453421E1E7649D370AA1B3FF84DDEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E3C59ED723B85315BA8531F195FB19E /* Build configuration list for PBXNativeTarget "Pods-KDCardStyleTableView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D6315D8C302DDD629B5FA093BD89341 /* Debug */,
+				46D8B81EBFF3E46324AAFACBB50BCA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

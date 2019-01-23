@@ -1,0 +1,22 @@
+{
+  "name": "KDCardStyleTableView",
+  "version": "0.1.0",
+  "summary": "A short description of KDCardStyleTableView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kevinmenglu/KDCardStyleTableView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kevinmenglu": "menglu.xu@kidoroo.com"
+  },
+  "source": {
+    "git": "https://github.com/kevinmenglu/KDCardStyleTableView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KDCardStyleTableView/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - KDCardStyleTableView (0.1.0)
+
+DEPENDENCIES:
+  - KDCardStyleTableView (from `../`)
+
+EXTERNAL SOURCES:
+  KDCardStyleTableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KDCardStyleTableView: 6f132f2b061c9a4e9bde5defcb8c804c84cbf18f
+
+PODFILE CHECKSUM: 2bc9674d8e561293c9845b81c0a2d7cc41852fde
+
+COCOAPODS: 1.6.0.beta.2

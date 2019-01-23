@@ -1,0 +1,6 @@
+framework module KDCardStyleTableView {
+  umbrella header "KDCardStyleTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}
