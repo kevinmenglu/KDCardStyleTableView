@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KDCardStyleTableView_Example' do
+  pod 'KDCardStyleTableView', :path => '../'
+
+  target 'KDCardStyleTableView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
